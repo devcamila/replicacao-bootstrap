@@ -6,9 +6,9 @@ O objetivo era recriar o site usando as HTML, CSS e BootStrap<br>
 --- 
 <div align="center">
 <br>
-<strong>Acesse o projeto aqui</strong> ➡️ 
+<strong>Acesse o projeto aqui</strong> ➡️ https://replicacao-bootstrap.vercel.app/#footer
 
-
+[![TCyzkx.png](https://i.im.ge/2021/09/23/TCyzkx.png)](https://im.ge/i/TCyzkx)
 
 </div>
 
