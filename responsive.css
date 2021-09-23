@@ -1,0 +1,116 @@
+@media screen and (max-width: 1270px) {
+  .container {
+    width: 80%;
+  }
+
+  .header-texto {
+    margin: auto;
+  }
+
+  .header-title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .container {
+    width: 90%;
+  }
+
+  .header-texto {
+    margin: auto;
+  }
+  .header-title {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .iphone {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+      width: 100%;
+    }
+  
+    .header-texto {
+      margin: auto;
+    }
+    .header-title {
+      width: 100%;
+      font-size: 30px;
+    }
+  
+    .iphone {
+      width: 190px;
+      height: 190px;
+      margin-right: 0;
+    }
+
+    #press img {
+        width:  70px;
+        margin: 20px;
+    } 
+
+    .pricing-title {
+        font-size: 30px;
+    }
+
+    #cta {
+        padding: 30px;      
+        }
+
+        .cta-box h3 {
+            font-size: 30px;
+            margin-bottom: 30px;
+           
+          }
+  }
+  
+@media screen and (max-width: 506px) {
+    .container {
+      width: 100%;
+    }
+  
+    .header-texto {
+      margin: 15px auto;
+      text-align: center;
+    }
+    .header-title {
+      width: 100%;
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .iphone {
+      display: none;
+    }
+
+    #pricing, .features {
+        margin: 50px auto;
+    }
+
+    #press img {
+        width:  70px;
+        margin: 20px;
+    } 
+
+    .pricing-title {
+        font-size: 30px;
+    }
+
+    #cta {
+        padding: 30px;      
+        }
+
+        .cta-box h3 {
+            font-size: 30px;
+            margin-bottom: 30px;
+           
+          }
+  }
+  

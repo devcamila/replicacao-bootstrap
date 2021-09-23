@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** Header */
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
+.container {
+  width: 70%;
+}
+
+.logo {
+  color: #fff;
+  margin-left: -15px;
+  font-family: "Baloo 2", cursive;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.header-texto {
+  margin: auto;
+  width: 90%;
+}
+
+.header-texto button {
+  margin: 5px;
+}
+
+.header-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 40px;
+  width: 60%;
+}
+
+.iphone {
+  width: 390px;
+  height: 390px;
+  margin-right: 50px;
+}
+
+/** Features */
+#features {
+  display: flex;
+  align-items: center;
+}
+
+.features {
+  margin: 80px auto;
+}
+
+.box-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.box-features h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+
+.box-features p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #a0a0a0;
+  width: 250px;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/** Testimonials */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  width: 60%;
+  margin: 60px auto;
+}
+
+.testimonials-box {
+  width: max-content;
+  margin: auto;
+}
+
+.testimonials-title {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0px auto 40px;
+  text-align: center;
+}
+
+.testimonials-image {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#press {
+  background-color: #ef8172;
+  height: 150px;
+}
+
+#press img {
+  width: 150px;
+  margin: 20px;
+}
+
+.press {
+  width: max-content;
+  margin: auto;
+}
+
+/** Pricing */
+#pricing {
+    margin: 80px auto;
+}
+
+.pricing-texts {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.pricing-title {
+  margin-bottom: 15px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.pricing-texts p {
+  color: #a0a0a0;
+  font-size: 18px;
+}
+
+.card-header {
+  width: 100%;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.card-body button,
+.card-body {
+  text-align: center;
+}
+
+.card-body h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+.card {
+  margin: 20px;
+  align-items: center;
+}
+
+.card-body p {
+  color: #a0a0a0;
+}
+
+/** Download */
+#cta {
+  background-color: #ff4c68;
+  padding: 150px;
+}
+
+.cta-box {  
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+
+.cta-box h3 {
+    font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.cta-box button {
+  margin: 15px;
+}
+
+/** Footer */
+#footer {
+  height: 150px;
+}
+
+.footer-links {
+  width: max-content;
+  margin: 80px auto 0px;
+  text-align: center;
+}
+
+.footer-links i {
+  margin: 5px;
+  color: #343a40;
+}
+
+.footer-links p {
+  margin-top: 15px;
+  color: #a0a0a0;
+}
+
+/* @media screen and (max-width: 780px){
+    .header-texto, .header-title, .cta-box {
+        width: 100%;
+        text-align: center;    
+           
+    }
+
+      #cta {
+    padding: 30px;
+    }
+
+    .iphone {
+        display: none;
+        margin-bottom: 0px;   
+     }
+
+    #press img {
+        width:  80px;
+        margin: 20px;
+    } 
+}
+
+@media screen and (max-width: 500px){
+
+    #press img {
+        width:  60px;
+        margin: 20px;
+    } 
+}
+
+@media screen and (max-width: 1280px){
+    .container {
+        width: 90%;
+    }
+       
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .header-texto {
+        width:100%;     
+    }
+
+    .header-title {
+        width: 100%;
+        font-size: 40px;
+
+    }   
+
+    .container-img img{
+        width: 200px;
+        height: 200px;
+    }  
+
+    
+}
+@media screen and (max-width: 1008px){
+    .container {
+        width: 95%;
+    }
+       
+    .container-header {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .header-texto {
+        width:100%;        
+        margin-top: 0px;
+    }
+
+    .header-title {
+        width: 100%;
+        font-size: 30px;
+    }   
+
+    
+}
+
+@media screen and (max-width: 1008px){ */
